@@ -1,0 +1,229 @@
+
+body{
+    background-color: rgb(32, 30, 30);
+    color: white;
+    display: block;
+}
+.gradient-background{
+    background: linear-gradient(-45deg, #73c0ab,rgb(152, 106, 106),rgb(180, 180, 118)); 
+	background-size : 200% 300%;
+
+	animation: linear 10s ease infinite;
+	height: 100vh;
+  
+}
+.add-first{
+    font-size: large;
+    font-weight: bolder;
+    font-style: oblique;
+    color: black;
+}
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -5px;
+    padding-bottom: px;
+    border-radius: 5%;
+    width: auto;
+    height: auto;
+    box-shadow: inset black;
+    line-height: normal;
+    color: white;
+}
+.container {
+    display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* feautres */
+.row{
+    margin-top: 5px;
+    background-color:rgb(159, 131, 131);
+}
+
+.align-items-md-center {
+    align-items: center!important;
+}
+.py-5 {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+.feature-icon-small{
+        background-color: bisque;
+        animation:alternate 2s;
+    
+}
+.row-cols-md-2>* {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.g-4, .gy-4 {
+    --bs-gutter-y: 1.5rem;
+}
+.gap-2 {
+    gap: 0.5rem!important;
+}
+.flex-column {
+    flex-direction: column!important;
+}
+.d-flex {
+    display: flex!important;
+}
+
+.col d-flex p{
+    max-width: 48rem;
+    color: white;
+}
+.feature-icon-small{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+.bg-gradient {
+    background-image: var(--bs-gradient)!important;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.text-bg-primary {
+    color: #fff!important;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: white;
+}
+.text-body-secondary {
+    --bs-text-opacity: 1;
+    color: #f1f1f1!important;
+}
+.text-body-emphasis {
+    --bs-text-opacity: 1;
+    color: #f1f1f1!important;
+}
+.py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.text-center {
+    text-align: center;
+}
+.text-sm {
+    font-size: .875rem;
+    line-height: 1.5rem;
+}
+.pt-5 {
+    padding-top: 1.25rem;
+}
+.gap-10 {
+    gap: 2.5rem;
+}
+.max-w-2xl {
+    max-width: 40rem;
+}
+.grid {
+    display: grid;
+}
+.m-5 {
+    margin: 1.25rem;
+}
+.pt-10 {
+    padding-top: 2.5rem;
+}
+.border-smedium {
+    --tw-border-opacity: 1;
+    /* 42 42 63 */
+    border-color: rgb(114 155 230/var(--tw-border-opacity));
+    /* border-color: rgb(114, 155, 230); */
+}
+.border-l-2 {
+    border-left-width: 2px;
+}
+.-my-9 {
+    margin-top: -2.25rem;
+    margin-bottom: -2.25rem;
+}
+.align-middle {
+    vertical-align: middle;
+}
+.flex {
+    display: flex;
+}
+.-ml-5 {
+    margin-left: -1.25rem;
+}
+.font-semibold {
+    font-weight: 600;
+}
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+.inline {
+    display: inline;
+}
+.ml-4 {
+    margin-left: 1rem;
+}
+.text-sblue {
+    --tw-text-opacity: 1;
+    color: rgb(0 209 255/var(--tw-text-opacity));
+}
+section {
+    display: block;
+}
+
+.my-10 {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+/* box-1 */
+.container {
+    display: flexbox;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.p-5 {
+    padding: 3rem!important;
+}
+
+body {
+    background-color: rgb(159, 131, 131);
+    color: rgb(129, 45, 45);
+    display: block;
+}
+/*  */
+.text-sblue{
+    color:rgb(129, 45, 45) ;
+}
+.text-xl{
+    font-size: x-large;
+}
+/*  */
+.shadow {
+    --tw-shadow-color: #00d1ff;
+    --tw-shadow: var(--tw-shadow-colored);
+}
+.text-3xl{
+    font-size: x-large;
+}
+.col-lg-6{
+    color: black;
+}
+/*  */
+.bg-dark{
+background-color: rgb(159, 131, 131);
+}
+a{
+    color: white;
+}
